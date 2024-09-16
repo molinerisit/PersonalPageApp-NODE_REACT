@@ -1,0 +1,102 @@
+/* PAGINA DE ABOUT (about.html) ---------------------------------------*/
+
+.espacio-resume {
+    height: 85px;
+    width: 100%;
+}
+
+.btn-Resume{
+    margin: 40px 10px;
+}
+
+
+.container-resume {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, auto));
+    gap: 12px;
+    height: 200px;
+    margin: 15px auto;
+}
+
+.div-resume {
+    width: 100px;
+    height: 220px;
+    position: inherit;
+    margin: 24px;
+}
+
+
+.img-resume {
+    width: 315%;
+    height: 135%;
+    padding: 0px 5px 0px 20px;
+    margin: -5px 0px 0px -10px;
+}
+
+.title-resume {
+    font-size: 58px;
+    color: var(--white);
+
+}
+
+.txt-resume {
+    padding: 2% 2% 0px 2px;
+    font-size: 0.80rem;
+    color: var(--white);
+    line-height: 1.4;
+    height: auto;
+    margin: 0px 30px 0px 70px;
+}
+
+.color {
+    color: var(--aquamarine);
+    font-weight: 1000;
+    font-size: 1.6rem;
+}
+
+/* Responive-Resume */
+
+@media (max-width: 700px) {
+
+    .img-resume {
+        width: 220%;
+        height: 105%;
+        margin: 0px 30px;
+    }
+
+    .btn-Resume {
+        margin: 10px 20px;
+    }
+
+    .espacio-resume--footer {
+        height: 100px;
+        width: 100%;
+    }
+
+    .espacio-resume {
+        height: 0px;
+        width: 100%;
+    }
+
+    .container-resume {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(290px, auto));
+        gap: 0;  
+        margin: 0;
+    }
+
+    .modal-icons {
+        margin: 10px 42px 0px 50px;
+    }
+
+    .txt-resume {
+        padding: 2% 0% 0px 0px;
+        font-size: 0.80rem;
+        color: var(--white);
+        line-height: 1.4;
+        height: auto;
+        margin: 0px 30px 0px 30px;
+    }
+}
+
+/* PAGINA DE ABOUT (about.html) ---------------------------------------*/
