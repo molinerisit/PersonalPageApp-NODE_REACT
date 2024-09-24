@@ -1,4 +1,4 @@
-Aplicación web - Personal
+Aplicación web para portafolio personal - Julian Molineris 
 
 
 Instrucciones para ejecutar la aplicación:
