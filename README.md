@@ -1,4 +1,4 @@
-Personal Page - Aplicación web personal
+Aplicación web - Personal
 
 
 Instrucciones para ejecutar la aplicación:
